@@ -1,0 +1,13 @@
+
+  Demonstrating use of Factories and Interfaces 
+ ===============================================
+
+  1st product created is ConcreteProductA.  Its size is 264 bytes.
+  Product1 using Interface1
+  can't use Interface2
+
+
+  2nd product created is ConcreteProductB.  Its size is 1032 bytes.
+  can't use Interface1
+  Product2 using Interface2
+
