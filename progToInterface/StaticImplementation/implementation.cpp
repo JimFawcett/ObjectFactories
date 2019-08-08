@@ -6,7 +6,6 @@
 //  Jim Fawcett, CSE687 - Object Oriented Design, Spring 2004          //
 /////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
 #include <iostream>
 #include "implementation.h"
 
