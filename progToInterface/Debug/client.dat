@@ -1,0 +1,14 @@
+
+  Demonstate Programming to Interfaces 
+ ======================================
+
+  object of class Example1
+  object of class Example2
+
+  The objFactory delivers, via ExampleInterface pointers,
+  objects that derive from ExampleInterface.  That
+  interface provides a protocol for clients of all
+  derived class objects, like Example1 and Example2,
+  to use, without needing to bind to the concrete
+  derived class of the objectthey are using.
+
