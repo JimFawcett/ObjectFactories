@@ -1,13 +1,9 @@
 # ObjectFactories
 
-<<<<<<< HEAD
 ![Stars](https://img.shields.io/github/stars/JimFawcett/ObjectFactories)
 ![Forks](https://img.shields.io/github/forks/JimFawcett/ObjectFactories)
 ![Language](https://img.shields.io/github/languages/top/JimFawcett/ObjectFactories)
 ![License](https://img.shields.io/github/license/JimFawcett/ObjectFactories)
-=======
-<a href="https://JimFawcett.github.io/ObjectFactories.html">ObjectFactories Documentation</a>
->>>>>>> a2e6dd7171ccdcf7192c7c58021d9c452353e7a2
 
 A comprehensive collection of examples demonstrating the implementation of object factory design patterns in C++. This repository provides practical implementations and educational resources for understanding various factory pattern approaches.
 
