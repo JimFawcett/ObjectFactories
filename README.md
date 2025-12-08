@@ -1,5 +1,12 @@
 # ObjectFactories
 
+![Stars](https://img.shields.io/github/stars/JimFawcett/ObjectFactories)
+![Forks](https://img.shields.io/github/forks/JimFawcett/ObjectFactories)
+![Language](https://img.shields.io/github/languages/top/JimFawcett/ObjectFactories)
+![License](https://img.shields.io/github/license/JimFawcett/ObjectFactories)
+
+A comprehensive collection of examples demonstrating the implementation of object factory design patterns in C++. This repository provides practical implementations and educational resources for understanding various factory pattern approaches.
+
 <div style="border:0px solid #ddd; padding:0.5rem 0.75rem; margin:1rem 0rem;">
   All the code in this repository was developed manually, not using
   an AI chatbot.
@@ -8,13 +15,6 @@
   developed for this site. 
 </div>
 <div style="height:0.75rem;">
-
-![Stars](https://img.shields.io/github/stars/JimFawcett/ObjectFactories)
-![Forks](https://img.shields.io/github/forks/JimFawcett/ObjectFactories)
-![Language](https://img.shields.io/github/languages/top/JimFawcett/ObjectFactories)
-![License](https://img.shields.io/github/license/JimFawcett/ObjectFactories)
-
-A comprehensive collection of examples demonstrating the implementation of object factory design patterns in C++. This repository provides practical implementations and educational resources for understanding various factory pattern approaches.
 
 🌐 **Homepage**: [ObjectFactories Documentation](https://JimFawcett.github.io/ObjectFactories.html)
 
