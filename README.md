@@ -7,6 +7,7 @@
 
 A comprehensive collection of examples demonstrating the implementation of object factory design patterns in C++. This repository provides practical implementations and educational resources for understanding various factory pattern approaches.
 
+## Note
 <div style="border:0px solid #ddd; padding:0.5rem 0.75rem; margin:1rem 0rem;">
   All the code in this repository was developed manually, not using
   an AI chatbot.
