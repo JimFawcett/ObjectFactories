@@ -106,6 +106,52 @@ int main() {
 }
 ```
 
+### Widget Factory Example
+
+```cpp
+#include "WidgetFactory.h"
+#include <iostream>
+#include <memory>
+
+int main() {
+    // Create a factory instance
+    WidgetFactory factory;
+    
+    // Register widget creators with the factory
+    factory.registerCreator("Button", []() -> std::shared_ptr<IWidget> {
+        return std::make_shared<Button>();
+    });
+    
+    factory.registerCreator("TextBox", []() -> std::shared_ptr<IWidget> {
+        return std::make_shared<TextBox>();
+    });
+    
+    factory.registerCreator("Label", []() -> std::shared_ptr<IWidget> {
+        return std::make_shared<Label>();
+    });
+    
+    // Create widgets dynamically by name
+    auto button = factory.create("Button");
+    if (button) {
+        button->draw();  // Use the widget
+    }
+    
+    auto textbox = factory.create("TextBox");
+    if (textbox) {
+        textbox->draw();
+    }
+    
+    // List all registered widget types
+    std::cout << "\nRegistered widgets:\n";
+    auto types = factory.getRegisteredTypes();
+    for (const auto& type : types) {
+        std::cout << "  - " << type << "\n";
+    }
+    
+    return 0;
+}
+```
+
 ## Project Structure
 
 ```
